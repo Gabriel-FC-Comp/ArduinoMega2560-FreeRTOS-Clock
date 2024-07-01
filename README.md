@@ -8,11 +8,11 @@ Neste projeto, exploramos a implementação de um sistema de alarme utilizando A
 ### Estrutura do Sistema
 O sistema foi estruturado em torno de cinco tarefas principais, gerenciadas por filas unidirecionais para comunicação entre elas. A estrutura incluiu tarefas para o menu, relógio, alarme, buzzer e LCD, proporcionando um controle integrado e modular das funcionalidades. A relação entre as mesmas é melhor representada no diagrama abaixo:
 
-[Diagrama Relacional entre as Tarefas](Figuras/LógicaRelógio.png)
+![Diagrama Relacional entre as Tarefas](Figuras/LógicaRelógio.png)
 
 O relógio foi desenvolvido como uma máquina de estados, representada no diagrama de transição de estados a seguir:
 
-[Diagrama de Transição de Estados](Figuras/DiagramaEstados.png)
+![Diagrama de Transição de Estados](Figuras/DiagramaEstados.png)
 
 ### Configuração do Circuito
 O circuito foi projetado para integrar todos os componentes eletrônicos necessários, garantindo a correta interação com a placa Arduino Mega 2560. Foram utilizados pinos específicos para cada componente, assegurando a funcionalidade adequada conforme definido no código.
@@ -40,20 +40,20 @@ O circuito foi montado conforme ilustrado no relatório, e todos os componentes 
 
 O circuito após montado pode ser observado na Figura abaixo, verificando a correta exibição das funcionalidaes no display LCD.
 
-[Visão Geral do Circuito](Figuras/VisãoGeralCircuito.jpg)
+![Visão Geral do Circuito](Figuras/VisãoGeralCircuito.jpg)
 
 O menu de seleção funcionou corretamente, indicando a opção a ser selecionada com o * e realizando a rolagem das opções, bem como a lista de melodias disponíveis pode ser trocada normalmente.
 
-[Exemplo Menu de Seleção Geral](Figuras/SeleçãoMenu.png)
+![Exemplo Menu de Seleção Geral](Figuras/SeleçãoMenu.png)
 
-[Exemplo Menu de Seleção de Melodias](Figuras/ListaMelodias.png)
+![Exemplo Menu de Seleção de Melodias](Figuras/ListaMelodias.png)
 
 ## Conclusão
 O uso do FreeRTOS neste projeto proporcionou várias vantagens significativas, como a execução concorrente de tarefas, modularidade no desenvolvimento e sincronização eficiente entre processos. Os desafios enfrentados e as soluções implementadas foram detalhados, destacando a robustez e flexibilidade do sistema desenvolvido.
 
 ## Autores
-[Gabriel Finger Conte](https://github.com/Gabriel-FC-Comp)
-[Maria Eduarda Pedroso](https://github.com/mariaeduardapedroso)
+- [Gabriel Finger Conte](https://github.com/Gabriel-FC-Comp)
+- [Maria Eduarda Pedroso](https://github.com/mariaeduardapedroso)
 
 ## Licença
 
